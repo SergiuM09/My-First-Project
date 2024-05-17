@@ -1,0 +1,190 @@
+/* Poza fundal + pozitie */
+body{
+    background-image: url("./pozafundal2.png");
+    background-size:cover; 
+    background-position: center; 
+} 
+
+/* Editare titluri de bun venit */
+.intro {
+    display: flex;
+    justify-content: left;
+    font:message-box;
+    font-size: 98%;
+    color:rgb(255, 230, 0, 1);
+}
+
+/* Editare navigatie */
+#textIntro {
+    margin-top: 2%;
+}
+
+/* Pozitionare butoane navigatie */
+.textIntro a {
+    font-size:larger;
+    display: inline-block;
+    background:rgba(255, 230, 0, 0.726);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.9s;
+    line-height: 40px;
+    border-radius: 5%;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Culoare hover */
+.textIntro a:hover {
+    background:rgb(255, 230, 0, 0.980);
+}
+
+/* Editare logo site */
+.intro img{
+    position:relative;
+    width: 10%;
+    height: 10%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    margin-left: 1.5%;
+    border-radius: 18%;
+}
+
+/* Pozitionare butoane Create Account si Login */
+#ButonLogare1,
+#ButonLogare2{
+   float:right;
+   margin-top: 3%;
+}
+#ButonLogare1{
+    margin-right: 0.5%;
+}
+
+/* Pozitionare formular Log In*/
+#logare {
+    margin-left:40%;
+    color:white;
+}
+
+/* Pozitionare input type email si password */
+#email,
+#password {
+    margin-right:20%;
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Butonul Submit */
+#submit {
+    float:center;
+    width: 32.3%;
+    background-color: rgba(255, 230, 0, 0.726);
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Pozitionare titlu */
+#titlulogin {
+    text-align:center;
+    border-style:solid;
+    background-color:rgba(255, 230, 0, 0.726) ;
+    border-radius:50%;
+    width:6%;
+    color:rgb(0, 0, 0);
+    margin-right:1%;
+    margin-left:46.5%;
+}
+
+/* Pozitionare mesaj"Don't have an account?" */
+#faracont {
+    margin-left: 4.3%;
+}
+
+/* Pozitionare ancora catre pagina de Create Account/ Sign Up" */
+#faracont a{
+    color:rgba(255, 230, 0, 0.726);
+    text-decoration: none;
+}
+
+/* Pozitionare "OR" */
+h4 {
+    margin-left:14.6%;
+}
+
+/* Pozitionare optiune Log In cu Facebook sau Google */
+.elselogin {
+    text-align: left;
+    display:block;
+    width: 30%;
+    background:rgba(255, 230, 0, 0.726);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.9s;
+    line-height: 40px;
+    border-radius: 5%;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Editare hover pentru ancorele spre FB si */
+.elselogin:hover {
+    background:rgb(255, 230, 0, 0.980);
+}
+
+/* Pozitionare logo-uri FB si GOOGLE */
+#facebookIcon {
+    width:8%;
+    margin-left:35%;
+    margin-top:5%;
+    border-radius:50%;
+}
+#googleIcon {
+    width:12%;
+    margin-left:39%;
+    margin-top:1%;
+    border-radius:50%;
+}
+
+/* Pozitionare linie intre ancore */
+#linia{
+    width:20%;
+    margin-left:6%;
+}
+
+/* Pozitionare Footer si despartire coloane*/
+#footer {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color:rgba(240, 248, 255, 0.568);
+    font-size: medium;
+    color:rgb(255, 81, 0);
+}
+
+/* Culoare pt ancore */
+#footer a{
+    color:rgb(255, 98, 0);
+    text-decoration: none;
+}
+
+/* Pozitionare iconite Facebook, Instagram, Pinterest */
+#FB {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#IG {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#PI {
+    height: 20px;
+    margin-top: 6%;
+}

@@ -1,0 +1,180 @@
+/* Poza fundal + pozitie */
+body{
+    background-image: url("./pozafundal2.png");
+    background-size:cover; 
+    background-position: left; 
+} 
+
+/* Editare titluri de bun venit */
+.intro {
+    display: flex;
+    justify-content: left;
+    font:message-box;
+    font-size: 98%;
+    color:rgb(255, 230, 0, 1);
+}
+
+/* Editare navigatie */
+#textIntro {
+    margin-top: 2%;
+}
+
+/* Pozitionare butoane navigatie */
+.textIntro a {
+    font-size:larger;
+    display: inline-block;
+    background:rgba(255, 230, 0, 0.726);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.9s;
+    line-height: 40px;
+    border-radius: 5%;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Culoare hover */
+.textIntro a:hover {
+    background:rgb(255, 230, 0, 0.980);
+}
+
+/* Editare logo site */
+.intro img{
+    position:relative;
+    width: 10%;
+    height: 10%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    margin-left: 1.5%;
+    border-radius: 18%;
+}
+
+/* Pozitionare butoane Create Account si Login */
+#ButonLogare1,
+#ButonLogare2{
+   float:right;
+   margin-top: 3%;
+}
+#ButonLogare1{
+    margin-right: 0.5%;
+}
+
+/* Titlul "Pizza Recipes" */
+#titlu {
+    text-align: left;
+    margin-bottom: 2%;
+    margin-left: 1.8%;
+    color: rgb(255, 230, 0, 1);
+}
+
+/* Pozitionarea retetei in border-box */
+#recipe1 {
+    background-color: rgb(210, 105, 30);
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    width: 45%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+#recipe2 {
+    background-color: rgb(210, 105, 30);
+    padding: 1%;
+    width: 45%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+#recipe3 {
+    background-color: rgb(210, 105, 30);
+    padding: 1%;
+    width: 45%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+#recipe4 {
+    background-color: rgb(210, 105, 30);
+    padding: 1%;
+    width: 45%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
+/* Pozitionarea imaginilor cu retetele finale */
+#poza1 {
+    float:right;
+    margin-top:1.5%;
+    margin-right: 3.3%;
+    border-radius:5%;
+    width: 45%;
+    border-style: solid;
+    border-color:rgb(210, 105, 30);
+}
+#poza2 {
+    float:right;
+    margin-top:1.5%;
+    margin-right: 3.3%;
+    border-radius:5%;
+    width: 45%;
+    border-style: solid;
+    border-color:rgb(210, 105, 30);
+}
+#poza3 {
+    float:right;
+    margin-top:0.8%;
+    margin-right: 3.3%;
+    border-radius:5%;
+    width: 45%;
+    border-style: solid;
+    border-color:rgb(210, 105, 30);
+}
+#poza4 {
+    float:right;
+    margin-top:1.3%;
+    margin-right: 3.3%;
+    border-radius:5%;
+    width: 45%;
+    border-style: solid;
+    border-color:rgb(210, 105, 30);
+}
+
+/* Pozitionare Footer si despartire coloane*/
+#footer {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color:rgba(240, 248, 255, 0.568);
+    font-size: medium;
+    color:rgb(255, 81, 0);
+}
+
+/* Culoare pt ancore */
+#footer a{
+    color:rgb(255, 98, 0);
+    text-decoration: none;
+}
+
+/* Pozitionare iconite Facebook, Instagram, Pinterest */
+#FB {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#IG {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#PI {
+    height: 20px;
+    margin-top: 6%;
+}
+
+

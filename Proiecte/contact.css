@@ -1,0 +1,146 @@
+/* poza fundal + pozitie */
+body{
+    background-image: url("./pozafundal2.png");
+    background-size:cover; 
+    background-position: center; 
+} 
+
+/* editare titluri de bun venit */
+.intro {
+    display: flex;
+    justify-content: left;
+    font:message-box;
+    font-size: 98%;
+    color:rgb(255, 230, 0, 1);
+}
+
+/* editare navigatie */
+#textIntro {
+    margin-top: 2%;
+}
+
+/* pozitionare butoane navigatie */
+.textIntro a {
+    font-size:larger;
+    display: inline-block;
+    background:rgba(255, 230, 0, 0.726);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.9s;
+    line-height: 40px;
+    border-radius: 5%;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* culoare hover */
+.textIntro a:hover {
+    background:rgb(255, 230, 0, 0.980);
+}
+
+/* editare logo site */
+.intro img{
+    position:relative;
+    width: 10%;
+    height: 10%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    margin-left: 1.5%;
+    border-radius: 18%;
+}
+
+/* Pozitionare butoane Create Account si Login */
+#ButonLogare1,
+#ButonLogare2{
+   float:right;
+   margin-top: 3%;
+}
+#ButonLogare1{
+    margin-right: 0.5%;
+}
+
+/* formular contact */
+#formular {
+    color:rgb(255, 230, 0, 1);
+    font-weight: bold;
+    margin-left:1.8%;
+    max-width: 400px;
+}
+
+/* Pozitionare titlu "Contact Us" */
+#contact {
+    color:rgb(255, 230, 0, 1);
+    font-weight: bold;
+}
+
+/* Pozitionarea si colorarea input urilor */
+input[type="text"],
+#email1,
+textarea {
+    background-color: rgba(210, 105, 30, 0.763);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 106, 0, 0.879);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Editarea dimensiunii pt textarea */
+textarea {
+    height: 150px;
+}
+
+/* Editarea culorii si formei butonului submit */
+#submit {
+    background-color: rgba(210, 105, 30, 0.763);
+    color: rgb(255, 230, 0, 1);
+    padding: 10px 20px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Pozitionare imagine contact */
+#poza_contact{
+    width:45%;
+    float: inline-end;
+    margin-top: 2.3%;
+    margin-right: 13%;
+    border-radius: 10%;
+    border-color: rgb(210, 105, 30);
+    border-style: solid;
+}
+
+/* Pozitionare Footer si despartire coloane*/
+#footer {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color:rgba(240, 248, 255, 0.568);
+    font-size: medium;
+    color:rgb(255, 81, 0);
+}
+
+/* Culoare pt ancore */
+#footer a{
+    color:rgb(255, 98, 0);
+    text-decoration: none;
+}
+
+/* Pozitionare iconite Facebook, Instagram, Pinterest */
+#FB {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#IG {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#PI {
+    height: 20px;
+    margin-top: 6%;
+}

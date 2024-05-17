@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> FoodForEveryone! </title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+
+<body>
+
+    <!-- navigatie -->
+    <div class="intro">
+        <img src="logo.jpg" alt="Logo">
+        <div class="textIntro">
+            <a id="ButonLogare2" href="Login.html"><b>Login</b></a>
+            <a id="ButonLogare1" href="CreateAccount.html"><b>Create Account</b></a>
+            <h1> <u> Welcome to Food For Everyone! </u> </h1>
+            <h2> Your favourite recipe is only one click away! </h2>
+            <a href="home.html"><b>Home</b\></a>
+            <a href="about.html"><b>About Us</b></a>
+            <a href="meat_recipes.html"><b>Meat Recipes</b></a>
+            <a href="vegan_recipes.html"><b>Vegan Recipes</b></a>
+            <a href="vegetarian_recipes.html"><b>Vegetarian Recipes</b></a>
+            <a href="quick_and_easy.html"><b>Quick Recipes</b></a>
+            <a href="pizza_recipes.html"><b>Pizza Recipes</b></a>
+            <a href="pasta_recipes.html"><b>Pasta Recipes</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+
+        </div>
+    </div>
+
+    <!-- eveniment + liste -->
+    <div class="liste">
+        <img src="Weekend.jpg" alt="WeekendRecipes">
+        <div id="lista1">
+            <h3> Recently Added</h3>
+            <ul>
+                <li>Mediterranean Quinoa Salad </li>
+                <hr>
+                <li>Asian-Inspired Tofu Stir-Fry</li>
+                <hr>
+                <li>Roasted Garlic Cauliflower Mash</li>
+                <hr>
+                <li>Vegan Lentil Curry</li>
+                <hr>
+                <li>Spaghetti Aglio e Olio</li>
+                <hr>
+                <li>Creamy Mushroom Risotto</li>
+                <hr>
+                <li>Sticky Sesame Cauliflower Wings</li>
+                <hr>
+                <li>Mediterranean Chickpea Salad</li>
+                <hr>
+            </ul>
+        </div>
+        <div id="lista2">
+            <h3> Trending now</h3>
+            <ul>
+                <li>Sushi</li>
+                <hr>
+                <li>Angus Beef Burger</li>
+                <hr>
+                <li>Dalgona Coffee</li>
+                <hr>
+                <li>Sourdough Bread</li>
+                <hr>
+                <li>Banana Bread</li>
+                <hr>
+                <li>Vegan Jackfruit Tacos</li>
+                <hr>
+                <li>Crispy Baked Zucchini Fries</li>
+                <hr>
+                <li>Matcha Green Tea Smoothie Bowl</li>
+                <hr>
+            </ul>
+        </div>
+        <div class="Overlay">
+            <u><b>Weekend Recipes</b></u><br>
+            Kickstart your weekend with a Friday evening fakeaway,<br> followed by a delightful array of indulgent
+            breakfasts,<br> gourmet dinner options, refreshing drinks, and tantalizing Sunday lunch inspirations.
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- carti de retete -->
+    <div class="mesaj">
+        <h2>Buy our latest recipe books</h2>
+    </div>
+    <br>
+    <div class="carti">
+        <a class="diferit" href="#about"><img src="./carti/carte1.jpg" alt="WeekendRecipes"> </a>
+        <a href="#about"><img src="./carti/carte2.jpg" alt="WeekendRecipes"> </a>
+        <a href="#about"><img src="./carti/carte3.jpg" alt="WeekendRecipes"> </a>
+        <a class="diferit" href="#about"><img src="./carti/carte4.jpg" alt="WeekendRecipes"> </a>
+    </div>
+
+    <!-- formular personalizare carte -->
+    <h2 class="mesaj">OR</h2>
+    <h3 class="mesaj">Write down your favourite foods, your fitness goal and any allergies to certain foods, <br>and we
+        will create a unique, personalized recipe book just for you!</h3>
+    <form id="CartePersonalizata">
+
+        <!-- Text area cu JAVASCRIPT(console.log) -->
+        <textarea id="PersonalizareCarteInfo"
+            placeholder="We're delighted to offer you a personalized experience!"></textarea>
+        <button type="submit" onclick="FunctiePreluareInfo(event)">Submit</button>
+
+        <script>
+            function FunctiePreluareInfo(event) {
+                event.preventDefault();
+                var InfoCarte = document.getElementById("PersonalizareCarteInfo").value;
+                console.log("Informatii Personalizare Carte : " + InfoCarte);
+            }
+        </script>
+
+    </form>
+
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <!-- Footer -->
+    <!-- fiecare lista e in clasa column -->
+    <footer id="footer">
+        <div class="column">
+            <h3>FoodForEveryone.ro</h3>
+            <br> <a href="#">Privacy Policy</a>
+            <br><a href="#">Terms and Conditions</a>
+            <br><a href="#">Cookie Policy</a>
+            <br><a href="#"> Contact Number 0742747900</a>
+            <br><a href="#">Return Policy</a>
+            <br><a href="#">Delivery and Shipping</a>
+            <br><a href="#">Frequently Asked Questions (FAQ)</a>
+            <br><a href="#">Blog</a>
+            <br><a href="#">Career</a>
+           
+        </div>
+        <div class="column">
+            <h3>Client Services</h3>
+            <br>Find us on
+            <a href="https://www.facebook.com/"><img id="FB" src="./pozaFB.png" alt="FB"></a>,
+            <a href="https://www.instagram.com/"><img id="IG" src="./pozaIG.png" alt="IG"></a>,
+            <a href="https://www.pinterest.com/"><img id="PI" src="./pozaPI.png" alt="PI"></a>
+            <br><a href="https://google.com">Subscribe to our Newsletter</a>
+
+            <!-- Functie pt preluare email (JAVASCRIPT)-->
+            <br><label>E-mail</label><input id="mail" type="email" />
+            <button type="submit" onclick="FunctiePreluareMail(event)">Submit</button>
+
+            <script>
+                function FunctiePreluareMail(event) {
+                    var Mail = document.getElementById("mail").value;
+                    console.log("Your email is : " + Mail);
+                }
+            </script>
+
+            <br><a href="#">Package opening upon delivery</a>
+            <br><a href="#">30-day right of return</a>
+            <br><a href="#">Card Payment Details</a>
+            <br><a href="#">eCREDIT Financing</a>
+            <br><a href="#">Warranties and service</a>
+            <br><a href="#">Black Friday Offers</a>
+        </div>
+        <div class="column">
+            <h3>Orders and Delivery</h3>
+            <br><a href="#">My account</a>
+            <br><a href="#">Order delivery</a>
+            <br><a href="#">Financing methods</a>
+            <br><a href="#">Our Marketplace</a>
+            <br><a href="#">Delivery & Returns</a>
+            <br><a href="#">Track Your Order</a>
+        </div>
+        <div class="column">
+            <h3>Special Recipes</h3>
+            <br><a href="#">Barbecue</a>
+            <br><a href="#">Dinner ideas</a>
+            <br><a href="#">Dinner party</a>
+            <br><a href="#">Special occasions</a>
+            <br><a href="#">Casserole &amp; slow cooker</a>
+            <br><a href="#">Quick &amp; easy budget meals</a>
+            <br><a href="#">Red meat &amp; game</a></li>
+            <br><a href="#">Cuisine</a></li>
+            <br><a href="#">Fish &amp; seafood</a>
+        </div>
+
+
+        <div class="column">
+            <h3>Healthy Recipes</h3>
+            <br><a href="#">Veggie and Hummus Wrap</a>
+            <br><a href="#">Zucchini Noodles with Pesto</a>
+            <br><a href="#">Turkey and Veggie Lettuce Wraps</a>
+            <br><a href="#">Greek Yogurt Parfait</a>
+            <br><a href="#">Sweet Potato</a>
+            <br><a href="#">Cauliflower Fried Rice</a>
+            </ul>
+    </footer>
+
+</body>
+
+</html>

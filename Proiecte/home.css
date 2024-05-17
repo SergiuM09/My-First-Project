@@ -1,0 +1,194 @@
+/* Poza fundal + pozitie */
+ body{
+    background-image: url("./pozafundal2.png");
+    background-size:cover; 
+    background-position: center; 
+} 
+
+/* Editare titluri de bun venit */
+.intro {
+    display: flex;
+    justify-content: left;
+    font:message-box;
+    font-size: 98%;
+    color:rgb(255, 230, 0, 1);
+}
+
+/* Editare navigatie */
+#textIntro {
+    margin-top: 2%;
+}
+
+/* Pozitionare butoane navigatie */
+.textIntro a {
+    font-size:larger;
+    display: inline-block;
+    background:rgba(255, 230, 0, 0.726);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.9s;
+    line-height: 40px;
+    border-radius: 5%;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Culoare hover */
+.textIntro a:hover {
+    background:rgb(255, 230, 0, 0.980);
+}
+
+/* Editare logo site */
+.intro img{
+    position:relative;
+    width: 10%;
+    height: 10%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    margin-left: 1.5%;
+    border-radius: 18%;
+}
+
+/* Pozitionare butoane Create Account si Login */
+#ButonLogare1,
+#ButonLogare2{
+   float:right;
+   margin-top: 3%;
+}
+#ButonLogare1{
+    margin-right: 0.5%;
+}
+
+/* Pozitionarea generala a listelor */
+.liste {
+    margin-top: 3%;
+    display:flex;
+    justify-content: space-between;
+    color:rgb(255, 230, 0, 1);
+}
+
+/* Pozitionarea individuala a listelor */
+#lista1 {
+    font-size: 100%;
+    border-style: solid;
+    padding: 0.8%;
+    text-shadow: -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+    margin-left: 1%;
+    border-radius: 4%;
+    }
+    
+    #lista2 {
+    font-size: 107%;
+    border-style: solid;
+    padding: 0.8%;
+    text-shadow: -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+    margin-right: 7%;
+    border-radius: 5%;
+    }
+
+/* Pozitionarea imaginii Weekend Recipes */
+.liste img{
+    width: 45%;
+    height: 27vw;
+    margin-left: 1.5%;
+    border-radius: 5%;
+}
+
+/* Pozitionare overlay */
+.Overlay {
+    position: absolute;
+    text-align: left;
+    top: 79%;
+    left: 3%; 
+    background-color: rgba(255, 255, 255, 0.7); /* Setăm culoarea de fundal a casetei cu o opacitate de 70% */
+    padding: 8px; /* Adăugăm puțin spațiu între text și marginea casetei */
+    font-size: 17px; /* Setăm mărimea textului */
+    color: rgb(0, 0, 0);
+}
+
+/* Imagini cu ancore pt carti + formular personalizare carte */
+.carti img{
+    width: 100%;
+    height: 18vw;
+    border-radius: 10%;
+}
+
+/* Pozitionare imagini cu carti */
+.carti{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* Setarea dimensiunii cartilor din lateral din cauza diferentelor de rezolutie */
+.diferit{
+    width: 14%;
+}
+
+/* Pozitionare mesaj pt personalizarea cartii */
+.mesaj {
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 230, 0, 0.980);
+    text-shadow: -1px -1px 0 black,  
+    1px -2px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+/* Pozitionare formular pt textarea */
+#CartePersonalizata {
+    width: 100%;
+    height: 200%;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pozitionare textarea */
+textarea {
+    width: 512px;
+    height: 95px;
+}
+
+/* Pozitionare Footer si despartire coloane*/
+#footer {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color:rgba(240, 248, 255, 0.568);
+    font-size: medium;
+    color:rgb(255, 81, 0);
+}
+
+/* Culoare pt ancore */
+#footer a{
+    color:rgb(255, 98, 0);
+    text-decoration: none;
+}
+
+/* Pozitionare iconite Facebook, Instagram, Pinterest */
+#FB {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#IG {
+    height: 20px;
+    margin-top: 6%;
+}
+
+#PI {
+    height: 20px;
+    margin-top: 6%;
+}
+
